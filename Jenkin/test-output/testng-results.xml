@@ -1,0 +1,51 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite">
+    <groups>
+    </groups>
+    <test name="Test">
+      <class name="NewTest.Talent">
+        <test-method status="PASS" signature="Test()" name="Test" duration-ms="35614" started-at="2018-09-03T16:57:59Z" finished-at="2018-09-03T16:58:35Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="34336" started-at="2018-09-03T16:57:25Z" finished-at="2018-09-03T16:57:59Z">
+        </test-method>
+        <test-method status="FAIL" signature="screenShot(org.testng.ITestResult)" name="screenShot" is-config="true" duration-ms="0" started-at="2018-09-03T16:58:35Z" finished-at="2018-09-03T16:58:35Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method screenShot requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method screenShot requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:147)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:96)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:289)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:70)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:135)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:531)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:821)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:788)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:858)
+	at org.testng.TestNG.main(TestNG.java:831)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

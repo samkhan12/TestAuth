@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" failures="0" tests="1" time="69.957" errors="0">
+  <properties/>
+  <testcase name="@AfterMethod screenShot" time="0.0" classname="NewTest.Talent">
+    <failure type="org.testng.TestNGException" message="
+Method screenShot requires 1 parameters but 0 were supplied in the @Configuration annotation.">
+      <![CDATA[org.testng.TestNGException: 
+Method screenShot requires 1 parameters but 0 were supplied in the @Configuration annotation.
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="Test" time="35.614" classname="NewTest.Talent"/>
+</testsuite>
